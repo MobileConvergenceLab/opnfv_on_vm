@@ -34,10 +34,8 @@ JUMP_MASTER=1
 PHY_ENABLE=0
 
 PHY_IF_PRIV=eth0
-PHY_BR_PRIV=br-$PHY_IF_PRIV
 
 PHY_IF_PUB=eth1
-PHY_BR_PUB=br-$PHY_IF_PUB
 
 # Number of virtual machines
 NUM_NODES=2
@@ -59,10 +57,8 @@ JUMP_MASTER=1
 PHY_ENABLE=1
 
 PHY_IF_PRIV=eth0
-PHY_BR_PRIV=br-$PHY_IF_PRIV
 
 PHY_IF_PUB=eth1
-PHY_BR_PUB=br-$PHY_IF_PUB
 
 # Number of virtual machines
 NUM_NODES=2
@@ -80,10 +76,8 @@ JUMP_MASTER=0
 PHY_ENABLE=1
 
 PHY_IF_PRIV=eth0
-PHY_BR_PRIV=br-$PHY_IF_PRIV
 
 PHY_IF_PUB=eth1
-PHY_BR_PUB=br-$PHY_IF_PUB
 
 # Number of virtual machines
 NUM_NODES=3
